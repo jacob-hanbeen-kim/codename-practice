@@ -1,6 +1,6 @@
 package main
 
-import "Users/daniellee/Desktop/Programming/codename-practice/Backend/app"
+import "github.com/jacob-hanbeen-kim/codename-practice/Backend/app"
 
 func main() {
 
