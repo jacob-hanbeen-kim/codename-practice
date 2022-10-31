@@ -1,5 +1,11 @@
 version: "3"
 services:
+  be-server:
+    container_name: go-back-end
+    restart: always
+    build: ./Backend
+    ports:
+       - "8080:8080"
   client:
     container_name: react-client
     restart: always
