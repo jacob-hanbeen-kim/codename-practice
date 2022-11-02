@@ -1,10 +1,14 @@
 import SongList from "./SongList";
 import SongDetail from "./SongDetail";
+import Greet from "./Greet";
 
 const App = () => {
   return (
     <div className="ui container grid">
       <div className="ui row">
+        <div>
+          <Greet />
+        </div>
         <div className="column eight wide">
           <SongList />
         </div>
